@@ -1,0 +1,35 @@
+
+.menu h2,p {
+    line-height: 10pt;
+    text-align: center;
+    color: black;
+}
+
+.menu{
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.menu li{
+    margin: 10px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    width: 204px;
+}
+
+.menu img{
+    width: 200px;
+    height: 160px;
+    margin: auto;
+    margin-top: 4px;
+    border-radius: 4px;
+}

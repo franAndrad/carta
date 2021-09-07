@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,300&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:ital,wght@0,600;1,300&family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+img{
+ display: block;
+ max-width: 100%;
+}
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000000;
+}
+
+.header h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+/*Estilos del header*/
+
+.header {
+    height: 60px;
+}
+
+.header .contenedor {
+    display: flex;
+    font-size: 40px;
+    background: #ffffff;
+    height: 50px;
+}
+
+.logo{
+    display: flex;
+    margin-top: auto;
+    margin-right: auto;
+}
+
+.logo .txt{
+    font-size: xx-large;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.logo img{
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.menu{
+    display: flex;
+    line-height: 45px;
+    border-radius: 5px ;
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.menu__item1, .menu__item2, .menu__item3 {
+    display: block;
+    margin-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+.menu__link{
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    list-style: none ;
+    color: #000000;
+}
+
+.menu__link:hover, .select {
+    color:#505555;
+}
+
+/*Estilos del Banner*/
+
+.banner {
+    margin-top: -11px;
+    position: relative;
+    z-index: -1000;
+}
+
+.banner .contenedor{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    height: 22px;
+    text-align: center;
+    background-color: #000000;
+}
+
+.banner__titulo{
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color:#FF1BC5;
+    font-size: 10px;
+}
+
+.banner__txt {
+    display: block;
+    margin-top: auto;
+} 
+
+/*Estilos de footer*/
+
+.footer{
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer .social [class^="icon-"] {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+}
+
+.footer .icon-whatsapp{
+    background-color: #19E643;
+}
+
+.footer .icon-instagrem{
+    background: linear-gradient(#405DE6,#5851db,#833ab4,#c13584,#e1306c,#fd1d1d);
+}
